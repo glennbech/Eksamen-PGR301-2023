@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run:
-          cd /kjell/hellow_world
+          cd /kjell/hello_world/
           pip install -r requirements.txt
 
       - name: Build SAM application
