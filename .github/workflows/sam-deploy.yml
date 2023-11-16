@@ -21,6 +21,11 @@ jobs:
       - name: Install dependencies
         run: cd kjell/hello_world/ && pip install -r requirements.txt
 
+      - name: SAM Build
+        run: |
+          cd kjell/
+          sam build
+
       - name: Build SAM application
         run: sam build
 
