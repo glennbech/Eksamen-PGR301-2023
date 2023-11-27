@@ -39,11 +39,4 @@ jobs:
         if: github.ref == 'refs/heads/main'
         run: |
           cd kjell/
-          sam deploy --no-fail-on-empty-changeset --stack-name aws-cloud9-haka019-c30ff7b1cc294129a0c907cc9ece1c61 --region eu-west-1 --s3-bucket kandidatnr553 --capabilities CAPABILITY_IAM --parameter-overrides "BucketName=MyBucket"
-      
-      
-      #
-          
-
-      
-      
+          sam deploy --no-fail-on-empty-changeset --stack-name aws-cloud9-haka019-c30ff7b1cc294129a0c907cc9ece1c61 --region eu-west-1 --s3-bucket kandidatnr553 --capabilities CAPABILITY_IAM --parameter-overrides "BucketName=kandidatnr553" # Update BucketName here
