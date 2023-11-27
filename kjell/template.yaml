@@ -6,6 +6,12 @@ Description: >
   Sample SAM Template for kjell
 
 # More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
+
+Parameters:
+  BUCKET_NAME:
+    Type: String
+    Default: "default-bucket-name"
+
 Globals:
   Function:
     Timeout: 60
