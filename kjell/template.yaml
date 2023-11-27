@@ -10,7 +10,7 @@ Description: >
 Parameters:
   BucketName:
     Type: String
-    Default: "MyBucket"
+    Default: "kandidatnr553"
 
 
 Globals:
