@@ -10,7 +10,7 @@ Description: >
 Parameters:
   BUCKET_NAME:
     Type: String
-    Default: "kjellsimagebucket"
+    Default: "kandidatnr553"
 
 Globals:
   Function:
