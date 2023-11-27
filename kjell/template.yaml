@@ -8,9 +8,10 @@ Description: >
 # More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
 
 Parameters:
-  BUCKET_NAME:
+  BucketName:
     Type: String
     Default: "kandidatnr553"
+
 
 Globals:
   Function:
